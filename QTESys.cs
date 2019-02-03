@@ -114,7 +114,6 @@ public class QTESys : MonoBehaviour {
 			yield return new WaitForSeconds(1.5f);
 			WaitingForKey = 0;
 			CountingDown = 1;
-			SceneManager.UnloadScene(1);
 		}
 	}
 
